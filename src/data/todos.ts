@@ -3,7 +3,7 @@ import { Todo } from "../type/todos";
 export const dummyData: Todo[] = [
     {
         id: 1,
-        title: "Learn Typescript.",
+        title: "Push it on GitHub.",
         completed: false,
     },
     {
@@ -13,7 +13,7 @@ export const dummyData: Todo[] = [
     },
     {
         id:3,
-        title: "Push projet to github.",
+        title: "Learn Typescript.",
         completed: false,
     }
 ]

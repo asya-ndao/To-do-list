@@ -18,13 +18,12 @@ export default function AddTodoForm({onSubmit}: AddTodoFormProps) {
 
     }
 
-
     return(
         <form className="flex" onSubmit={handleSubmit}>
             <input
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
-                placeholder="What needs to be done??"
+                placeholder="Add a new task.."
                 className="bg-white rounded-s-md grow border border-gray-400 p-2"
             />
             <button
